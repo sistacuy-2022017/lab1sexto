@@ -12,7 +12,7 @@ html{
 }
 
 .contenedor-header{
-    background-color: #000000;
+    background-color: #102C57;
     position: fixed;
     width: 100%;
     top: 0;
@@ -32,7 +32,7 @@ html{
 .contenedor-header header .logo h1{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #FFFFFF;
+    color: #EADBC8;
     text-decoration: none;
 }
 
@@ -43,9 +43,40 @@ html{
 
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #FFFFFF;
+    color: #DAC0A3;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+}
+
+.contenedor-header nav ul li a:hover{
+    color: #F8F0E5;
+}
+
+.nav-responsive{
+    background-color: #102C57;
+    color: #EADBC8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(https://creativereview.imgix.net/content/uploads/2017/11/F1-logo-red-on-white.png?auto=compress,format&q=60&w=1200&h=750);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #102C57;
+    max-width: 380px;
+    margin: auto;
+    text-align: center;
 }
