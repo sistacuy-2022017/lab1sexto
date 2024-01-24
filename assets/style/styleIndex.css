@@ -12,12 +12,20 @@ html{
 }
 
 .contenedor-header{
-    background-color: #102C57;
+    background-color: #31304D;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 99;
+}
+
+.contenido-banner h1{
+    color: #B6BBC4
+}
+
+.contenido-banner h2{
+    color: #B6BBC4
 }
 
 .contenedor-header header{
@@ -55,7 +63,7 @@ html{
 }
 
 .nav-responsive{
-    background-color: #102C57;
+    background-color: #31304D;
     color: #EADBC8;
     padding: 5px 10px;
     border-radius: 5px;
@@ -75,7 +83,7 @@ html{
 
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #102C57;
+    background-color: #31304D;
     max-width: 380px;
     margin: auto;
     text-align: center;
@@ -83,9 +91,209 @@ html{
 
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #102C57;
+    border: 10px solid #31304D;
     display: block;
     width: 80%;
     margin: auto;
     border: 100%;
+}
+
+.inicio .contenido-banner h1{
+    margin: 30px;
+    font-size: 25px;
+    font-family: 'Righteous';
+}
+
+inicio .contenido-banner h2{
+    font-size: 15pxpx;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.inicio .contenido-banner .redes a{
+    color: #EADBC8;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #EADBC8;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.inicio .contenido-banner .redes a:hover{
+    background-color: #DAC0A3;
+}
+
+.about{
+    background-color: #F0ECE5;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    padding: 1rem;
+    background-color: #F0ECE5;
+}
+
+.heading span{
+    color: #2B2A4C;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about .row .image{
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.about .row .image img{
+    width: 100%;
+    border: 1.5rem solid #F0ECE5;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .row .image h3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    background: #31304D;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.about .row .content h3{
+    font-family: 'Righteous';
+    font-size: 3rem;
+    color: #333;
+}
+
+.about .row .content p{
+    font-size: .95rem;
+    color: #001C30;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.about .row .content{
+    flex: 1 1 40rem;
+}
+
+
+/* aqui deberia de ir el css del boton de about*/
+.btn{
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid #2B2A4C;
+    color: #B6BBC4;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #B6BBC4;
+    background-color: #B6BBC4;
+}
+
+.general-container{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1-txt{
+    background-image: url(https://cdn.ferrari.com/cms/network/media/img/resize/64d34a81dce94d0010d0f343-scuderia-ferrari-selections-2023-replica-mob?width=768&height=1024);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: circle(50%);
+    height: 450px;
+    padding: 170px 50px;
+}
+
+.general-2-txt{
+    background-image: url(https://cdn-1.motorsport.com/images/amp/6b7kbXw0/s1000/max-verstappen-red-bull-racing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: circle(50%);
+    height: 450px;
+    padding: 170px 50px;
+}
+
+.general-3-txt{
+    background-image: url(https://pbs.twimg.com/media/FRIktQEWYAEQ8Fj?format=jpg&name=large);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: circle(50%);
+    height: 450px;
+    padding: 170px 50px;
+}
+
+.general-container h2{
+    font-family: 'Righteous';
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #1B293A;
+}
+
+.general-container .general-content .general-1-txt h3{
+    font-size: 30px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.general-container .general-content .general-2-txt h3{
+    font-size: 30px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.general-container .general-content .general-3-txt h3{
+    font-size: 30px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.general-container .general-content .general-1-txt p{
+    color: #EBEBEBEB;
+    font-size: 16px;
+}
+
+.general-container .general-content .general-2-txt p{
+    color: #EBEBEBEB;
+    font-size: 16px;
+}
+.general-container .general-content .general-3-txt p{
+    color: #EBEBEBEB;
+    font-size: 16px;
 }
