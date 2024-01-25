@@ -297,3 +297,47 @@ inicio .contenido-banner h2{
     color: #EBEBEBEB;
     font-size: 16px;
 }
+
+.tiempo-container{
+    background-color: #B6BBC4;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.tiempo-container .tiempo1{
+    width: 50%;
+    padding-right: 120px;
+}
+
+.tiempo-container .tiempo1 h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.tiempo-container .tiempo1 p{
+    font-size: 19px;
+    color: #818181;
+    margin-bottom: 35px;
+    text-align: justify center;
+}
+
+.img1 , .img2{
+    width: 250px;
+}
+
+.btn-2{
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid #2B2A4C;
+    color: #161A30;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
