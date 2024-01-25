@@ -341,3 +341,13 @@ inicio .contenido-banner h2{
     text-decoration: none;
 }
 
+footer {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    background-color: #B6BBC4;
+    z-index: 1;
+    color: #FFFFFF !important;
+    width: 100%;
+    text-align: center;
+}
