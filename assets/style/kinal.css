@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,600;1,700&display=swap');
+@import url('https://static.wixstatic.com/media/128120_222c6afe0771472e85c1ad44674c3a70~mv2.png/v1/fill/w_123,h_62,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Recurso%203-8.png');
 
-*{
+* {
     box-sizing: border-box;
     font-family: 'Work Sans';
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.contenedor-header{
-    background-color: #31304D;
+.contenedor-header {
+    background-color: var(--screenwidth-corvid-background-color, rgba(var(--bg, var(--color_11)), var(--alpha-bg, 1)));
     position: fixed;
     width: 100%;
     top: 0;
@@ -20,15 +20,15 @@ html{
     z-index: 99;
 }
 
-.contenido-banner h1{
+.contenido-banner h1 {
     color: #B6BBC4
 }
 
-.contenido-banner h2{
+.contenido-banner h2 {
     color: #B6BBC4
 }
 
-.contenedor-header header{
+.contenedor-header header {
     max-width: 1100px;
     margin: auto;
     display: flex;
@@ -37,36 +37,124 @@ html{
     padding: 15px 20px;
 }
 
-.contenedor-header header .logo h1{
+.contenedor-header header .logo h1 {
     font-family: 'Righteous';
     font-size: 36px;
     color: #EADBC8;
     text-decoration: none;
 }
 
-.contenedor-header header ul{
+.contenedor-header header ul {
     display: flex;
     list-style: none;
 }
 
-.contenedor-header header nav ul li a{
+.contenedor-header header nav ul li a {
     text-align: none;
     color: #DAC0A3;
     margin: 0 15px;
+    margin-top: 10px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
 }
 
-.contenedor-header nav ul li a:hover{
+.contenedor-header nav ul li a:hover {
     color: #F8F0E5;
 }
 
-.nav-responsive{
-    background-color: #31304D;
+.nav-responsive {
+    background-color: var(--screenwidth-corvid-background-color, rgba(var(--bg, var(--color_11)), var(--alpha-bg, 1)));
     color: #EADBC8;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
+}
+
+.about{
+    background-color: #F0ECE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    text-align: center;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+/* Estilo para el encabezado de la tarjeta */
+.tarjeta-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el cuerpo de la tarjeta */
+.tarjeta-body {
+    padding: 15px;
+}
+
+.inicio {
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
+        url(https://static.wixstatic.com/media/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg/v1/fill/w_980,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner {
+    padding: 20px;
+    background-color: transparent;
+    max-width: 380px;
+    margin: auto;
+    text-align: center;
+}
+
+.inicio .contenido-banner img {
+    margin-top: 40px;
+    border: 10px solid #31304D;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border: 100%;
+}
+
+.inicio .contenido-banner h1 {
+    margin: 30px;
+    font-size: 25px;
+    font-family: 'Righteous';
+}
+
+inicio .contenido-banner h2 {
+    font-size: 15pxpx;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.inicio .contenido-banner .redes a {
+    color: #EADBC8;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #EADBC8;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.inicio .contenido-banner .redes a:hover {
+    background-color: #DAC0A3;
 }
